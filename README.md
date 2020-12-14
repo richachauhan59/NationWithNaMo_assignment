@@ -5,7 +5,7 @@
 <li>css</li>
 </ul>
 
-#About
+# About
 <p>This is simple ToDo App where user can add items in todo, can delete it and can mark as complete.</br>
 User can also filter the items as all, completed and uncompleted</p>
 
