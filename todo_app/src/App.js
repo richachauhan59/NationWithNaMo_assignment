@@ -27,6 +27,9 @@ function App() {
       case 'uncompleted':
         setFilteredTodos(todos.filter(todo => todo.completed == false))
         break;
+        case '#':
+          setFilteredTodos(todos.filter(todo => todo.text[0] == '#'))
+          break;
       default:
         setFilteredTodos(todos)
         break;

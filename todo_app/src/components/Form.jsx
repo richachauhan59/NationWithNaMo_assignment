@@ -4,7 +4,6 @@ import uuid from 'react-uuid'
 
 const Form = ({setInputText, todos, setTodos, inputText, setStatus}) => {
     const inputTextHandler = (e) => {
-        console.log(e.target.value)
         setInputText(e.target.value)
     }
     const submitTodoHandler = (e) => {
@@ -29,6 +28,7 @@ const Form = ({setInputText, todos, setTodos, inputText, setStatus}) => {
             <option value="all">All</option>
             <option value="completed">Completed</option>
             <option value="uncompleted">Uncompleted</option>
+            <option value="#">hashTag</option>
           </select>
         </div>
       </form>
